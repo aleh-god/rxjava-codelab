@@ -1,9 +1,12 @@
-package com.example.rxjavacodelab
+package com.example.rxjavacodelab.core
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.rxjavacodelab.R
 import com.example.rxjavacodelab.ui.main.MainFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
